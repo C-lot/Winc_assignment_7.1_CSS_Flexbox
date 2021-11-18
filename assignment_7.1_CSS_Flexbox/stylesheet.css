@@ -1,0 +1,28 @@
+body {
+  padding-top: 50px;
+}
+
+.blogpost,
+.blogpost1 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.img {
+  width: 300px;
+  height: 150px;
+}
+
+.container-blog {
+  display: flex;
+  height: 800px;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px 10px;
+}
+
+.blogpost1 {
+  flex-grow: 1;
+  align-self: flex-start;
+}
